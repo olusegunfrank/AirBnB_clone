@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """
+<<<<<<< HEAD
 Test suits for the base model
 """
 
@@ -49,3 +50,32 @@ class TestBaseModel(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+=======
+module for base_model unittest
+"""
+
+import os
+import unittest
+import models
+from model.base_model import Base_Model
+
+class TestBaseModel(unittest.TestCase)):
+    """
+    unittest for basemodel
+    """
+
+def setup(self):
+    try:
+        os.rename("file.json", "tmp.json")
+    except FileNotFoundError:
+        pass
+
+    def tearDown(self):
+        """
+        teardown temporary files)
+        """
+        try:
+            os.remove("file.json")
+        except FileNotFoundError:
+            pass
+>>>>>>> 622e914e8a2f7a2a20cf866b2c94a52faabdb70e
