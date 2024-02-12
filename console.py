@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module for the entry point of the command interpreter."""
+"""The command interpreter has a module for each class"""
 
 import cmd
 from models.base_model import BaseModel
@@ -10,7 +10,7 @@ import json
 
 class HBNBCommand(cmd.Cmd):
 
-    """Class for the command interpreter."""
+    """The class command interpreter."""
 
     prompt = "(hbnb) "
 
