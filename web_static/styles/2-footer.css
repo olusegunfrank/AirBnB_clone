@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer{
     background-color: #00FF00;
     height: 60px; width: 100%;
@@ -6,4 +7,15 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center
+=======
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #00FF00;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+>>>>>>> d4a430155cd4f359eebc1f3fc01b58901b1b3038
 }

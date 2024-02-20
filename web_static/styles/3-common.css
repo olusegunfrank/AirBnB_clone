@@ -1,6 +1,16 @@
+<<<<<<< HEAD
 body{
     padding: 0;
     margin: 0;
+=======
+body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+>>>>>>> d4a430155cd4f359eebc1f3fc01b58901b1b3038
     color: #484848;
     font-size: 14px;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
